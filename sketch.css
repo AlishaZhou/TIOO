@@ -1,0 +1,65 @@
+.mySketchGame, .mySketch {
+    margin: auto;
+
+}
+p{
+    margin: 0px; 
+    padding: 0px;
+    font-size: 150px;
+}
+body{
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: #593dc2;
+    font-family: Garamond;
+}
+table{
+    margin: auto;
+    margin-top: 20px;
+    width: fit-content;
+    padding: 10px;
+}
+
+.subtitle{
+    margin-top: 25px;
+    color:white;
+}
+@font-face {
+    font-family: Baskerville;
+    src: url(fonts/BaskervilleMTStd-SemiBd.woff);
+}
+@font-face {
+    font-family: Garamond;
+    src: url(/CormorantGaramond-VariableFont_wght.woff);
+}
+
+.bask{
+    font-family: Baskerville;
+    font-size: 100px;
+    margin: 0;
+    padding: 0;
+}
+.instruction{
+    font-family: Garamond;
+    font-size: 38px;
+    padding: 0;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+}
+a:visited {
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+}
+a:hover {
+    color: rgb(148, 112, 255);
+    background-color: transparent;
+    text-decoration: none;
+}
+
