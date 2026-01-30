@@ -13,7 +13,7 @@ body{
     background-color: rgb(95, 61, 194);
 }
 
-/*overlaps js with html container*/
+/* overlaps js with html */
 .container{
     position: absolute;
     width: 100%;
@@ -22,8 +22,8 @@ body{
 /* centers text */
 .textContent{
     margin: auto;
-    margin-top: 125px;
-    width: 50%;
+    width:50%;
+    margin-top: 60px;
 }
 
 @font-face {
@@ -38,27 +38,26 @@ body{
   font-optical-sizing: auto;
   font-weight: 450;
   font-style: normal;
-  font-size: 150px;
+  font-size: 200px;
   line-height: 80%;
 }
 
 .bask{
     font-family: Baskerville;
-    font-size: 100px;
+    font-size: 150px;
     margin: 0px;
     line-height: 90%;
 }
 
 .garaSubtitle{
     font-family: "Cormorant Garamond", serif;
-    text-align: center;
-    margin:auto;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
+    text-align: center;
     line-height: 115%;
     color:white;
-    font-size: 38px;
+    font-size: 50px;
 }
 
 a:link {
