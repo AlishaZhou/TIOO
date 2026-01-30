@@ -1,64 +1,64 @@
 .mySketchGame, .mySketch {
     margin: auto;
+}
 
-}
 p{
-    margin: auto; 
-    padding: 0px;
-    font-size: 150px;
+    margin:auto;
 }
+
 body{
     margin: 0;
     padding: 0;
     color: white;
     background-color: rgb(95, 61, 194);
 }
+
+/*overlaps js with html container*/
 .container{
     position: absolute;
     width: 100%;
 }
-br{
-  display: block;
-  content:"";
-}
+
+/* centers text */
 .textContent{
     margin: auto;
-    margin-top: 100px;
+    margin-top: 125px;
     width: 50%;
 }
 
-.subtitle{
-    margin-top: 10px;
-    color:white;
-    font-size: 35px;
-}
 @font-face {
     font-family: Baskerville;
     src: url(fonts/BaskervilleMTStd-SemiBd.woff);
     line-gap-override: 20%;
 }
 
+/* fontface pulled from google fonts*/
 .cormorant-garamond {
   font-family: "Cormorant Garamond", serif;
   font-optical-sizing: auto;
   font-weight: 450;
   font-style: normal;
-  line-height: 0%;
-  margin: 0;
-  padding: 0;
+  font-size: 150px;
+  line-height: 80%;
 }
 
 .bask{
     font-family: Baskerville;
     font-size: 100px;
-    margin: 0;
-    padding: 0;
-    line-height: 0%;
-
+    margin: 0px;
+    line-height: 90%;
 }
-.instruction{
+
+.garaSubtitle{
+    font-family: "Cormorant Garamond", serif;
+    text-align: center;
+    margin:auto;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 115%;
+    color:white;
     font-size: 38px;
-    padding: 0;
 }
 
 a:link {
