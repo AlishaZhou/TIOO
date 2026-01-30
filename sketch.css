@@ -60,17 +60,17 @@ body{
     font-size: 50px;
 }
 
-a:link {
+.button{
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.button:visited {
   color: white;
   text-decoration: none;
   background-color: transparent;
 }
-a:visited {
-  color: white;
-  text-decoration: none;
-  background-color: transparent;
-}
-a:hover {
+.button:hover {
     color: rgb(148, 112, 255);
     background-color: transparent;
     text-decoration: none;
