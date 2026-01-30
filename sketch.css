@@ -3,36 +3,49 @@
 
 }
 p{
-    margin: 0px; 
+    margin: auto; 
     padding: 0px;
     font-size: 150px;
 }
 body{
-    font-size: 40px;
     margin: 0;
     padding: 0;
     color: white;
-    background-color: #593dc2;
-    font-family: Garamond;
+    background-color: rgb(95, 61, 194);
 }
-table{
+.container{
+    position: absolute;
+    width: 100%;
+}
+br{
+  display: block;
+  content:"";
+}
+.textContent{
     margin: auto;
-    margin-top: 20px;
-    width: fit-content;
-    padding: 10px;
+    margin-top: 100px;
+    width: 50%;
 }
 
 .subtitle{
-    margin-top: 25px;
+    margin-top: 10px;
     color:white;
+    font-size: 35px;
 }
 @font-face {
     font-family: Baskerville;
     src: url(fonts/BaskervilleMTStd-SemiBd.woff);
+    line-gap-override: 20%;
 }
-@font-face {
-    font-family: Garamond;
-    src: url(/CormorantGaramond-VariableFont_wght.woff);
+
+.cormorant-garamond {
+  font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
+  line-height: 0%;
+  margin: 0;
+  padding: 0;
 }
 
 .bask{
@@ -40,9 +53,10 @@ table{
     font-size: 100px;
     margin: 0;
     padding: 0;
+    line-height: 0%;
+
 }
 .instruction{
-    font-family: Garamond;
     font-size: 38px;
     padding: 0;
 }

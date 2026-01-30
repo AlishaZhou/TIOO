@@ -15,7 +15,7 @@ function setup() {
     var myCanvas = createCanvas(400, 400);
   myCanvas.parent("mySketch");
   createCanvas(windowWidth, windowHeight);
-  background(89, 61, 194);
+  background(95, 61, 194);
 
   noStroke();
   
