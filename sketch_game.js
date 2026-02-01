@@ -41,7 +41,7 @@ function setup() {
   myCanvas.parent("mySketchGame");
   res =	Math.min(windowWidth, windowHeight);
 	reset();
-  createCanvas(windowWidth, windowHeight-125);
+  createCanvas(windowWidth, windowHeight);
   angleMode(DEGREES);
   textAlign(CENTER, CENTER);
   
